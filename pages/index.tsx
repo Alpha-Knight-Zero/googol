@@ -3,7 +3,7 @@ import { GetStaticProps, GetStaticPaths, GetServerSideProps } from 'next';
 import { useRouter } from 'next/dist/client/router';
 import Head from 'next/head';
 import Image from 'next/image';
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import Avatar from '../components/Avatar';
 import Footer from '../components/Footer';
 
